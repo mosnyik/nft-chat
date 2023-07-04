@@ -26,8 +26,8 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
 );
 
 const { connectors } = getDefaultWallets({
-  appName: 'RainbowKit App',
-  projectId: 'YOUR_PROJECT_ID',
+  appName: 'push-nft-chat',
+  projectId: '57197c3bb55d7ae1022fac0350bc59d6',
   chains,
 });
 
